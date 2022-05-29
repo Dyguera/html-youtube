@@ -1,0 +1,79 @@
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 30px;
+}
+@media (max-width: 1000px) {
+  .grid{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.card{ 
+  display: flex;
+  flex-direction: column;
+}
+.video-container{
+ display: inline-block;
+ position: relative;
+ height: 224px;
+ width: 400px;
+ margin-bottom: 5px;
+}
+.video-picture{
+  height: 300x;
+  width: 400px;
+  object-fit: cover;
+  margin-bottom: 5px;
+}
+.video-time{
+  display: inline-block;
+  position: absolute;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  right: 6px;
+  bottom: 5px;
+}
+.description{
+  display:flex; 
+  margin-top:10px;
+}
+.channel-picture{
+  height: 45px;
+  width: 45px;
+  object-fit: cover;
+  border-radius:30px ;
+  margin: 0 5 0 0;
+}
+.textos{
+  display: flex;
+  flex-direction: column; 
+  margin-top: 0px;
+  margin-left: 15px;
+}
+
+.título-vídeo{
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.channel-info{
+  font-family: Arial;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 5px;
+  color:rgb(148, 148, 148)
+}
+.vídeo-info{
+  font-family: Arial;
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 2px;
+  color:rgb(148, 148, 148)
+}
+
+
+

@@ -1,0 +1,34 @@
+body{
+  height: 3000px;
+  
+}
+
+.bloco1{
+  position: fixed;
+  background-color: black;
+  color: white;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1;
+}
+
+.bloco2{
+  background-color: green;
+  color:white;
+  position: fixed;
+  right: 20px;
+  height: 500px;
+  z-index: 0;
+}
+
+.bloco3{
+  background-color: rgba(0,0,0,0.8);
+  display: flex;
+  flex-direction: column;
+  width:250px;
+  align-items: center;
+  position: fixed;
+  right: 5%;
+
+  
+}

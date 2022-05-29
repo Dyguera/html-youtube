@@ -1,0 +1,56 @@
+<button>Back</button>
+<p>1</p>
+<p>2</p>
+<p>3</p>
+<p>4</p>
+<p>5</p>
+<button>Next</button>
+<button class ="stretch">Stretch</button>
+<button class ="shadow">Shadow</button>
+
+<style>
+    button{
+			display:inline-block;
+     padding: 15px 10px 15px 10px;
+		 font-size: 15px;
+		 font-weight: bold;
+    }
+		p{
+			display:inline-block;
+			margin-right: 5px;
+			text-decoration: underline;
+			color: Darkblue;
+		}
+		.stretch{ 
+			display: block;
+			margin-top: 15px;
+			padding: 10px 20px 10px 20px; 
+			background-color: green;
+			color: white;
+			border: none; 
+			font-weight: bold;
+			font-size: 25px;
+			transition: padding 1s;
+		}
+
+		.stretch:hover{ 
+			padding: 20px 40px 20px 40px;
+		}
+
+		.shadow{ 
+			display: block;
+			padding: 10px 20px 10px 20px; 
+			background-color: green;
+			color: white;
+			border: none; 
+			font-weight: bold;
+			font-size: 25px;
+			box-shadow: 7px 7px 5px rgb(216, 216, 216);
+			cursor:pointer;
+		}
+		.shadow:active{ 
+			box-shadow: none;
+			margin-top: 5px;
+			margin-left: 5px;
+		}
+</style>

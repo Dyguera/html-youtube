@@ -1,0 +1,9 @@
+.imagem-container{
+position: relative;
+display: inline-block;
+}
+
+
+.imagem-container:hover .sobre-canal{ 
+  opacity: 1;
+}

@@ -1,0 +1,49 @@
+body {
+  height: 2000px;
+}
+.container{
+  position: relative;
+  height: 200px;
+  width: 300px;
+  display: inline-block;
+}
+
+
+
+.shirt{
+  height: 200px;
+  width: 300px;
+  object-fit: cover;
+}
+.desconto{
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 5px;
+  background-color: black;
+  color: white;
+  padding: 2px 5px 2px 5px;
+}
+
+.transparente{ 
+  position: absolute;
+  height: 70px;
+  width:300px;
+  bottom: 0;
+  background-color: white;
+  opacity: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.button{
+  background-color: aliceblue;
+  color: black;
+  padding: 2px 4px 2px 4px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  opacity: 100%;
+}

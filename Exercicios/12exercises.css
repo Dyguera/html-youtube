@@ -1,0 +1,115 @@
+.container{
+  display: flex;
+}
+.primeira{
+  background-color: lightblue;
+  width:200px;
+}
+
+.segunda{
+  background-color: lightcoral;
+  width: 70px;;
+}
+
+.container2{
+  display: flex;
+  margin-top: 10px;
+
+}
+
+.item1{
+  background-color: lightblue;
+  width:50px;
+}
+
+.item2{
+  background-color: lightcoral;
+  width:50px;
+}
+
+.item3{
+  background-color: lightblue;
+  width:50px;
+}
+
+.container3{
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+.container4{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  height: 50px;
+  border-style: solid;
+  border-color: rgb(150, 150, 150);
+  align-items: center;
+  
+}
+
+.container5{
+  margin-top: 10px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  border-color: rgb(150, 150, 150);
+  border-width: 1px;
+  border-radius: 5px;
+  
+}
+
+.notificacao{
+  margin-bottom: 5px;;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Home{
+  margin:0;
+}
+
+.numero{
+  background-color: lightblue;
+  padding: 2px 8px 2px 8px;
+  border-radius: 15px;
+  color: white;
+  margin-right: 5px;
+}
+
+.container6{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.individual{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.foto-gato{
+  width:30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius:15px;
+}
+
+.nome{
+  margin: 0px;
+}
+.subtitulo{
+  margin:0px;
+}
+
+.Popular{
+  margin:0px;
+}
+
+.Follow{
+  flex-wrap: wrap;
+  margin-left: 200px;
+}

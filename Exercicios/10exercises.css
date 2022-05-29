@@ -1,0 +1,23 @@
+.card{
+    display: inline-block;
+    
+    align-items: center;
+}
+
+.div-textos{
+    display: inline-block;
+}
+
+.foto-gato{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 100px;
+    
+}
+
+.buttom{
+  display: inline-block;
+  align-items: center;
+}
+

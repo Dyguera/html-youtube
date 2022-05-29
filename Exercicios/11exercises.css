@@ -1,0 +1,113 @@
+.grid{
+  display: grid;
+  grid-template-columns: 200px 75px;
+}
+
+.div-200{
+  background-color: lightpink;
+}
+
+.div-75{
+  background-color: lightblue;
+}
+
+.grid-2{
+  display: grid;
+  grid-template-columns: 50px 1fr 75px;
+  margin-top: 50px;
+}
+
+.col-1{
+  background-color: lightblue;
+}
+
+
+.col-2{
+  background-color: lightpink;
+}
+
+
+.col-3{
+  background-color: lightblue;
+}
+
+.grid-4{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 50px;;
+  column-gap: 20px;
+  row-gap: 10px;
+  
+}
+
+.col-4{
+  background-color: lightpink;
+  
+}
+
+.final-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card{
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  width: 200px;
+  height: 300px;
+  margin-top: 20px;;
+}
+.picture-profile{
+  width:200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.título{
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 15px; ;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 1px;
+}
+
+.mutual-friend{
+  display: grid;
+  grid-template-columns: 25px 100px; 
+  column-gap: 5px;
+  align-items: center;
+  margin-bottom: 5px;
+  margin-top: 0px;
+
+}
+.img-mutual-friend{
+  width:25px;
+  height: 25px;
+  object-fit: cover;
+  border-radius:12px;
+  margin-left: 0px;
+  margin-left: 5px;
+}
+
+.texto-mutual-friend{
+  font-size: 12px;
+  font-family:Arial;
+  color:rgb(167, 162, 156);
+  margin-left: 5px;
+}
+
+.add-friend{
+  background-color: rgb(96, 148, 238);
+  color: white;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;;
+  margin-left: 5px;  
+  cursor: pointer;
+}
+
+.add-friend:active{
+  margin-top:10px;
+  margin-left: 10px;
+}
+
+

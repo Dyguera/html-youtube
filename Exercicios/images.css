@@ -1,0 +1,108 @@
+body{
+    margin-bottom: 2000px;
+}
+.foto-gato{ 
+    display:inline-block;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px; 
+    object-fit: cover;
+    object-position: center;
+}
+
+.div1{ 
+    margin-top: 10px;
+    border: none;
+}
+.input{ 
+    width: 500px;
+    border: none;    
+    border-radius: 100px;
+    border-color: rgb(231, 219, 219);
+    box-shadow: 0px 0px 5px rgb(202, 199, 199);
+    font-size: 16px;
+    vertical-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.input::placeholder{ 
+    font-family: arial;
+    font-size: 10px;
+    padding-left: 5px; 
+}
+
+.input:active{ 
+    border-color: aqua;
+
+}
+
+.div2{
+    display: flex;
+    margin-top: 30px;
+    width: 500px;
+    align-items: center;
+
+}
+
+.foto-gato2{
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 50px;
+
+
+}
+
+.p3{
+    padding-left: 5px;
+    padding-right: 150px
+}
+.button{ 
+    background-color: rgb(29, 155, 240);
+    color: white;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    vertical-align: middle;       
+    cursor: pointer;
+
+ }
+ .button:active{ 
+     margin-top: 2px;
+     margin-left: 2px;
+ }
+
+ .email { 
+     font-family: Arial;
+     color: grey; 
+     font-size: 12px;
+     margin-bottom: 0px;
+ }
+
+ .input2{
+     margin-top: 2px;;
+     width: 300px;
+     border-style:solid;
+     border-width: 1px;
+     border-radius: 2px;
+ }
+
+ .texto2{
+    color: grey; 
+    font-size: 12px;
+ }
+
+ .Agree-e-Join{
+     background-color: rgb(0, 115, 209);
+     color: white;
+     border-style: none;
+     padding: 10px 110px 10px 110px;
+     border-radius: 20px;
+ }

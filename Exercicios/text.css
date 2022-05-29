@@ -1,0 +1,83 @@
+body {
+    margin-bottom: 500px
+}
+p { 
+    font-family: tahoma;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.texto3 {
+    font-family: Arial;
+    font-size: 30px;
+    color: red;
+}
+
+.texto3 {
+    font-family: Arial;
+    font-style: italic;
+    font-size: 30px;
+    color: rgb(204, 71, 71);
+}
+
+.texto4{
+    margin-bottom: 5px;
+    font-family: verdana;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.texto5{
+   margin-top: 2px;
+   font-family: verdana;
+   font-size: 18px;
+   color: rgb(185, 185, 185)
+}
+.texto6{
+    width: 600px;
+}
+
+.button{
+    background-color: green;
+    color: white; 
+    padding: 10px 20px 10px 20px; 
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.extra2{ 
+    font-family: Arial;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+.span2{ 
+    font-size: 15px;
+    color: grey;
+    margin-bottom: 0px;
+ }
+.extra3{
+    font-family: arial;
+    color: darkgreen; 
+    margin-top: 1px;
+    font-size: 15px;
+}
+
+.extra4{
+    font-family: arial;
+    font-weight: bold;
+    font-size: 15px;
+}
+.span4{
+    color:gray;
+}
+.extra5{
+    font-family:arial;
+    font-size:25px;
+    width: 600x;
+}
+
+
+
